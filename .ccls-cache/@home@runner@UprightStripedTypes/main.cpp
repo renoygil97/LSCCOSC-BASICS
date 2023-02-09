@@ -20,8 +20,11 @@ int main() {
       // determine if snowing
       cout << "Is it isSnowing outside? (0 for true / 1 for false)";
       cin >> isSnowing;
-    }
-  }
+    
+  }else {
+    cout <<  "it is cold but too hot for snow"<< endl;
+   }
+  } 
 
   // just testing if var get input
   cout << isCold << endl;
